@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
 -->
 [![Build Status](https://travis-ci.com/satyarth934/cpp-boilerplate.svg?branch=master)](https://travis-ci.com/satyarth934/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/github/satyarth934/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/satyarth934/cpp-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/github/satyarth934/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/satyarth934/cpp-boilerplate)
 ---
 
 ## Authors
