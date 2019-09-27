@@ -13,3 +13,5 @@ build/
 # Misc
 app/PID_Answer.cpp
 junk.txt
+Documentation/
+Doxyfile
