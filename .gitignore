@@ -9,3 +9,7 @@ build/
 
 # Python
 *.pyc
+
+# Misc
+app/PID_Answer.cpp
+junk.txt
