@@ -1,6 +1,6 @@
 # C++ Boilerplate
 [![Build Status](https://travis-ci.org/Charan-Karthikeyan/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/Charan-Karthikeyan/cpp-boilerplate)
-[![Coverage Status][![Coverage Status](https://coveralls.io/repos/github/Charan-Karthikeyan/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/Charan-Karthikeyan/cpp-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/Charan-Karthikeyan/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/Charan-Karthikeyan/cpp-boilerplate?branch=master)
 ---
 
 ## Authors
