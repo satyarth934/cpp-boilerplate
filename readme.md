@@ -7,6 +7,9 @@
 Satyarth Praveen (Driver)
 Ishan Patel (Navigator)
 
+Part 2:
+Charan Karthikeyan (Driver)
+Corbyn Yhap (Navigator)
 ## Overview
 
 A simple exercise to demonstrate a Test-Driven development environment.
