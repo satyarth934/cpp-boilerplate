@@ -1,10 +1,3 @@
-/*
- * PID.cpp
- *
- *  Created on: Sep 27, 2019
- *      Author: root
- */
-
 /**
  *  @copyright (c) 2019 Satyarth Praveen, Ishan Patel
  *  @file    PID.cpp
