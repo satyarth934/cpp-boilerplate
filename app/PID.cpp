@@ -13,7 +13,6 @@
 #include <PID.hpp>
 
 double PID::compute(double targetSetpoint, double actualVelocity) {
-  // enter your code here
   double dt = 1;
   double error = targetSetpoint-actualVelocity;
   double propotional = Kp*error;
