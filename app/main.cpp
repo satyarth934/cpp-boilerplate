@@ -12,5 +12,8 @@
 #include <PID.hpp>
 
 int main() {
-  return 0;
+	PID pidObj(5, 3, 3);
+	double output = pidObj.compute(100, 20);
+	std::cout << "Output for the given PID gains and velocity values: " << output << std::endl;
+	return 0;
 }
