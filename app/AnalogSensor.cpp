@@ -1,23 +1,29 @@
+/**
+ *  @copyright (c) 2019 Satyarth Praveen
+ *  @file    AnalogSensor.cpp
+ *  @author Satyarth Praveen
+ *
+ *  @brief Source file for the AnalogSensor Class with constructor, 
+ *  destructor, and member function definitions.
+ *
+ */
+
 #include <AnalogSensor.hpp>
-#include <numeric>
-#include <vector>
 
 AnalogSensor::AnalogSensor(unsigned int samples)
-    : mSamples(samples)
-{
+    : mSamples(samples) {
 }
 
-AnalogSensor::~AnalogSensor()
-{
+AnalogSensor::~AnalogSensor() {
 }
 
-int AnalogSensor::Read()
-{
-    std::vector<int> *readings = new std::vector<int>(mSamples, 10);
+int AnalogSensor::Read() {
+    std::shared_ptr<std::vector<int>> readings =
+        std::make_shared<std::vector<int>>(mSamples, 10);
 
-    double result = std::accumulate( readings->begin(), readings->end(), 0.0 ) / readings->size();
+    double result = std::accumulate(readings->begin(), readings->end(), 0.0)
+        / readings->size();
 
-    delete readings;
     return result;
 }
 
